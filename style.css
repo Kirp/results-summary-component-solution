@@ -47,11 +47,88 @@ body {
 }
 
 .result-main {
-    background-image: linear-gradient(var(--light_slate_blue), var(--light_royal_blue));
+    background-image: linear-gradient(var(--light_slate_blue), 1%,var(--light_royal_blue));
     color: var(--white);
     border-radius: 0 0 35px 35px;
     display: flex;
     flex-direction: column;
     align-items: center ;
+}
 
+.result-main p {
+    margin: 1em 0;
+    text-align: center;
+    width: 80%;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.result-main p:last-of-type {
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+.result-main h2 {
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.main-score {
+    width: 150px;
+    height: 150px;
+    border-radius:  50%;
+    background-image: linear-gradient(hsla(0, 0%, 30%, 1),10%,hsla(0, 0%, 20%, 0));
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-score h1 {
+    font-weight: 800;
+    font-size: 3em;
+    padding-top: 1em;
+}
+
+.main-score p {
+    margin: 0;
+}
+
+.result-summary {
+    padding: 1em;
+}
+
+
+.result-summary-scores {
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    margin: 1em 0;
+    padding: 1em .5em;
+    
+    border-radius: 10px;
+
+    background:
+    linear-gradient(to right, black 4px, transparent 4px) 0 0,
+    linear-gradient(to right, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to left, black 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, black 4px, transparent 4px) 0 0,
+    linear-gradient(to bottom, black 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, black 4px, transparent 4px) 0 100%,
+    linear-gradient(to top, black 4px, transparent 4px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+
+
+
+}
+
+.img-p-pair {
+    display: flex;
+    align-items: flex-start;
 }

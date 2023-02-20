@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; display: none}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
@@ -19,7 +19,7 @@
   <div class="wrapper">
     <main>
       <div class="result-main">
-        <p>
+        <p class="result-header">
         Your Result
         </p>
 
@@ -27,7 +27,7 @@
           <h1>
           76
           </h1>
-          <p>
+          <p class="main-score-text">
           of 100
           </p>
         </div>
@@ -35,7 +35,7 @@
         <h2>
         Great
         </h2>
-        <p>
+        <p class="main-text">
         You scored higher than 65% of the people who have taken these tests.
         </p>
       </div>
@@ -53,8 +53,12 @@
             </p>
           </div>
           <p>
-            <span>80</span> / 100
+            80<span>/ 100</span>
           </p>
+          <div class="special-border" id="UL"></div>
+          <div class="special-border" id="UR"></div>
+          <div class="special-border" id="LL"></div>
+          <div class="special-border" id="LR"></div>
         </div>
         <div class="result-summary-scores" id="memory">
           <div class="img-p-pair">
@@ -66,8 +70,12 @@
             </p>
           </div>
           <p>
-            <span>92</span> / 100
+            92<span>/ 100</span>
           </p>
+          <div class="special-border" id="UL"></div>
+          <div class="special-border" id="UR"></div>
+          <div class="special-border" id="LL"></div>
+          <div class="special-border" id="LR"></div>
         </div>
         <div class="result-summary-scores" id="verbal">
           <div class="img-p-pair">
@@ -79,10 +87,14 @@
             </p>
           </div>
           <p>
-            <span>61</span> / 100
+            61<span>/ 100</span>
           </p>
+          <div class="special-border" id="UL"></div>
+          <div class="special-border" id="UR"></div>
+          <div class="special-border" id="LL"></div>
+          <div class="special-border" id="LR"></div>
         </div>
-        <div class="result-summary-scores" id-="visual">
+        <div class="result-summary-scores" id="visual">
           <div class="img-p-pair">
             <picture>
               <img src="./assets/images/icon-visual.svg" alt="">
@@ -90,9 +102,13 @@
             <p>
               Visual
             </p>
+            <div class="special-border" id="UL"></div>
+            <div class="special-border" id="UR"></div>
+            <div class="special-border" id="LL"></div>
+            <div class="special-border" id="LR"></div>
           </div>
           <p>
-            <span>72</span> / 100
+            72<span>/ 100</span>
           </p>
         </div>
         <div class="continue-button">

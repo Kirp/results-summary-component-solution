@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Kirp/results-summary-component-solution)
+- Live Site URL: [Github Pages](https://kirp.github.io/results-summary-component-solution/)
 
 ## My process
 

@@ -232,6 +232,9 @@ body {
     border-radius: 35px;
 }
 
+.continue-button a:hover{
+    background-image: linear-gradient(var(--light_slate_blue), 10%,var(--light_royal_blue));
+}
 
 @media(min-width: 700px){
     
